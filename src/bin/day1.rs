@@ -24,7 +24,7 @@ impl Elf {
 }
 
 fn main() {
-    let file = fs::File::open("./calories.txt").unwrap();
+    let file = fs::File::open("./day1.txt").unwrap();
     let reader = BufReader::new(file);
     let mut index = 1; 
     let mut elves: Vec<Elf> = vec![];
