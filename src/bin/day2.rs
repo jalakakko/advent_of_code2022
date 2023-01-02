@@ -1,8 +1,6 @@
 use std::io::{BufReader, BufRead};
 use std::fs::File;
-//ROCK ROCK 
-//ROCK PAPER
-//ROCK SCISSORS
+
 fn main() {
     let file = File::open("./day2.txt").unwrap();
     let reader = BufReader::new(file);
